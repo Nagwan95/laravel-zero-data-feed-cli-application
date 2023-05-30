@@ -19,11 +19,19 @@ Before running this application, make sure you have the following installed:
 composer install
 ```
 
-4. Run the migrations to set up the database:
+4. Copy the `.env.example` file to `.env`:
+
+```shell
+cp .env.example .env
+```
+
+5. Run the migrations to set up the database:
 
 ```shell
 php data-feed migrate
 ```
+
+
 
 ## Usage
 
