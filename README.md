@@ -28,7 +28,7 @@ cp .env.example .env
 5. Run the migrations to set up the database:
 
 ```shell
-php data-feed migrate
+php datafeed migrate
 ```
 
 
@@ -38,7 +38,7 @@ php data-feed migrate
 To run the application and process an XML file, use the following command:
 
 ```shell
-php data-feed process:xml {file}
+php datafeed xml:process {file}
 ```
 
 Replace `{file}` with the path to your XML file.
@@ -56,5 +56,5 @@ Errors encountered during the processing of the XML file will be logged to the `
 To run the application's tests, use the following command:
 
 ```shell
-php data-feed test
+php datafeed test
 ```
